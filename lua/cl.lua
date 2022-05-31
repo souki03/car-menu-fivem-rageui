@@ -1042,7 +1042,7 @@ function carmenu()
                         spawncar(IndexSportsClassic[statIndexSportsClassic])
                     end
                 end)
-                RageUI.List("Sports Classic", IndexSuper, statIndexSuper, nil, {}, true, function(Hovered, Active, Selected, i) statIndexSuper = i
+                RageUI.List("Super", IndexSuper, statIndexSuper, nil, {}, true, function(Hovered, Active, Selected, i) statIndexSuper = i
                     if (Selected) then
                         spawncar(IndexSuper[statIndexSuper])
                     end
